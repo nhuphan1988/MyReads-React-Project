@@ -35,7 +35,7 @@ const SearchPage = ({books, onUpdateBooks, options})=>{
                     setBooksResult(booksResultShelfAdded)
             }})
         }else{
-            // if query is empty, use setState to update "booksResult" as empty array
+            // if query is empty, useState to update "booksResult" as empty array
             setBooksResult([])
         }
         setQuery(query.trim());
