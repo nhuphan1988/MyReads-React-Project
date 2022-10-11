@@ -63,7 +63,6 @@ const SearchPage = ({books, onUpdateBooks, options})=>{
                         <BookInfo
                             key={book.id}
                             book={book}
-                            books={books}
                             options={options}
                             onUpdateBooks={onUpdateBooks}
                         />
